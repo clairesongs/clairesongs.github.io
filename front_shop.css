@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: midnightblue;
+}
+
+.page {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgb(0, 0, 42), blue);
+    /*91*/
+}
+
+.main1 {
+    border-left: ridge white 8px;
+    border-right: ridge white 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main2 {
+    border: ridge white 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main3 {
+    border: ridge white 8px;
+    padding: 10px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    border-right: ridge white 8px;
+    border-left: ridge white 8px;
+    border-bottom: ridge white 8px;
+    padding: 10px;
+}
+
+.main5 {
+    display: none;
+    border-right: ridge white 8px;
+    border-left: ridge white 8px;
+    border-bottom: ridge white 8px;
+    padding: 10px;
+}
+
+#half1 {
+    width:100%;
+}
+
+h4{
+    margin-top: 0px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#titles {
+    text-align: left;
+    width: auto
+}
+
+.middle_left {
+    border-right: white inset 4px;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.middle_right {
+    border-left: white inset 4px;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.aquam {
+    color:aquamarine;
+}
+
+#artists {
+    text-align: left;
+    width: auto;
+}
+
+#year {
+    text-align: left;
+    width: auto;
+}
+
+#cursor {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#button {
+    color: yellow;
+    background-color: darkblue;
+    margin-top: 70px;
+    visibility: hidden;
+    border: white ridge 4px;
+    font-size: 15px;
+    width: 70px;
+    padding: 3px;
+}
+
+.selection {
+    display: flex;
+    margin-left: 8px;
+}
+
+#minus {
+    color: yellow;
+    background-color: darkblue;
+    border: white ridge 4px;
+    margin-right: 10px;
+}
+
+#plus {
+    color: yellow;
+    background-color: darkblue;
+    border: white ridge 4px;
+}
+
+.selection2{
+margin-left: 3px;
+}
+
+#confirm {
+    color: yellow;
+    background-color: darkblue;
+    border: white ridge 4px;
+    margin-right: 10px;
+    width: 70px;
+    padding: 3px;
+}
+
+#cancel {
+    color: yellow;
+    background-color: darkblue;
+    border: white ridge 4px;    width: 70px;
+    padding: 3px;
+}
+
+#itemq {
+    background-color: darkblue;
+    font-size: 15px;
+    border: white ridge 4px;
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+}
